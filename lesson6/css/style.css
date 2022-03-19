@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+html,body,.container {
+    height: 100%;
+    
+}
+body {
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+.container {
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    background-color: white;  
+    padding: 67px 47px;  
+}
+.text-blog{
+    display: inline-block;
+    text-align: left;
+    margin-left: 100px;
+}
+.button {
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    font-family: Arial;
+    font-size: 18.8px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.button:hover {
+    background-color: red;
+}
+.title {
+    margin-bottom: 25px;
+    font-family: Arial;
+    font-size: 22.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+.description {
+    margin-bottom: 55px;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+.coast {
+    margin-bottom: 25px ;
+    display: block;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+.coast-value {
+    margin-bottom: 57px;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #2f2f2f;
+}
